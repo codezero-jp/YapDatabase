@@ -3796,6 +3796,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/iOS/module.modulemap;
+				OTHER_CFLAGS = "-DYapDatabaseLoggingTechnique=YapDatabaseLoggingTechnique_NSLog";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
 				PRODUCT_NAME = YapDatabase;
 				SDKROOT = iphoneos;
@@ -3822,6 +3823,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/iOS/module.modulemap;
+				OTHER_CFLAGS = "-DYapDatabaseLoggingTechnique=YapDatabaseLoggingTechnique_NSLog";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
 				PRODUCT_NAME = YapDatabase;
 				SDKROOT = iphoneos;
